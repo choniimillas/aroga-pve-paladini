@@ -1062,12 +1062,12 @@
         </p>
       </section>
 
-      <!-- Slide 5: Diseñado para Grandes Corporaciones y Empresas Familiares -->
+      <!-- Slide 5: Diseñado para Empresas Medianas y Grandes y Familias Empresarias -->
       <section class="glass-panel" id="sec-5">
         <div class="panel-header">
           <div class="panel-title-group">
             <div class="section-pill">Alcance y Perfil</div>
-            <h2 class="panel-h2">Diseñado para la complejidad de las grandes corporaciones y empresas familiares</h2>
+            <h2 class="panel-h2">Diseñado para la complejidad de empresas medianas y grandes y empresas familiares</h2>
           </div>
           <button class="info-btn" onclick="openModal('modal-perfil')" title="Ver especificaciones">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor"><circle cx="12" cy="12" r="10"/><line x1="12" y1="16" x2="12" y2="12"/><line x1="12" y1="8" x2="12.01" y2="8"/></svg>
@@ -1078,7 +1078,7 @@
           <div class="profile-card">
             <span class="section-pill" style="font-size:0.68rem;">01 • Trayectoria</span>
             <h3 class="pillar-h3">Sociedades consolidadas</h3>
-            <p class="pillar-p">(SA, SRL) consolidadas con sólida trayectoria comercial (+3 años en el mercado).</p>
+            <p class="pillar-p">(SA, SRL) consolidadas con sólida trayectoria comercial.</p>
           </div>
           <div class="profile-card">
             <span class="section-pill" style="font-size:0.68rem;">02 • Multiplicidad</span>
@@ -1155,53 +1155,80 @@
         <div class="dashboards-grid">
           <!-- Left: El Directorio -->
           <div class="board-card">
-            <div>
-              <h3 class="pillar-h3">El Directorio (Administrador)</h3>
-              <p class="pillar-p" style="margin-top:2px;">
-                Establece los parámetros operativos, temporalidad de las rondas y centraliza la publicación de información oficial.
-              </p>
+            <div class="dash-header">
+              <div>
+                <h3 class="pillar-h3">El Directorio (Administrador)</h3>
+                <p class="pillar-p" style="font-size:0.78rem; color:var(--color-gray-1); margin-top:2px;">
+                  Gestión de rondas, estados contables y repositorio oficial
+                </p>
+              </div>
+              <span class="pill-tag" style="font-size:0.65rem;">Portal Admin</span>
             </div>
 
+            <!-- Real Platform Administration Showcase Table -->
             <table class="dash-docs-table">
               <thead>
                 <tr>
-                  <th>Documentos Oficiales</th>
+                  <th>Módulo / Recurso</th>
+                  <th>Detalle Operativo</th>
                   <th>Estado</th>
-                  <th>Fecha</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Valuaciones</td>
-                  <td><span class="badge-ok">Cargado</span></td>
-                  <td>2026</td>
+                  <td style="font-weight:600; color:var(--color-light);">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4267D1" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                      Rondas de Negociación
+                    </div>
+                  </td>
+                  <td style="font-size:0.78rem; color:var(--color-primary-300);">Parámetros, Duración y Fechas</td>
+                  <td><span class="badge-ok">Abierta</span></td>
                 </tr>
                 <tr>
-                  <td>Informes</td>
-                  <td><span class="badge-ok">Cargado</span></td>
-                  <td>2026</td>
-                </tr>
-                <tr>
-                  <td>EECC</td>
+                  <td style="font-weight:600; color:var(--color-light);">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8CA3E2" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+                      EECC y Balances
+                    </div>
+                  </td>
+                  <td style="font-size:0.78rem; color:var(--color-gray-1);">Estados Contables Auditados</td>
                   <td><span class="badge-blue">Auditado</span></td>
-                  <td>2026</td>
                 </tr>
                 <tr>
-                  <td>Noticias</td>
-                  <td><span class="badge-blue">Activo</span></td>
-                  <td>2026</td>
+                  <td style="font-weight:600; color:var(--color-light);">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8CA3E2" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+                      Informes de Gestión
+                    </div>
+                  </td>
+                  <td style="font-size:0.78rem; color:var(--color-gray-1);">Valuaciones y Reportes Periódicos</td>
+                  <td><span class="badge-blue">Cargado</span></td>
+                </tr>
+                <tr>
+                  <td style="font-weight:600; color:var(--color-light);">
+                    <div style="display:flex; align-items:center; gap:6px;">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8CA3E2" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+                      Publicaciones Oficiales
+                    </div>
+                  </td>
+                  <td style="font-size:0.78rem; color:var(--color-gray-1);">Noticias y Hechos Relevantes</td>
+                  <td><span class="badge-ok">Publicado</span></td>
                 </tr>
               </tbody>
             </table>
           </div>
 
-          <!-- Right: El Accionista -->
+          <!-- Right: El Accionista (Sin 24/7) -->
           <div class="board-card" style="border-color: var(--color-primary);">
-            <div>
-              <h3 class="pillar-h3">El Accionista (Socio)</h3>
-              <p class="pillar-p" style="margin-top:2px;">
-                Accede 24/7 a su información patrimonial, valuación contable, historial de movimientos y distribución accionaria.
-              </p>
+            <div class="dash-header">
+              <div>
+                <h3 class="pillar-h3">El Accionista (Socio)</h3>
+                <p class="pillar-p" style="font-size:0.78rem; color:var(--color-primary-300); margin-top:2px;">
+                  Accede a su información patrimonial, valuación contable, historial de movimientos y distribución accionaria.
+                </p>
+              </div>
+              <span class="pill-tag" style="font-size:0.65rem; background: rgba(66,103,209,0.3);">Portal Socio</span>
             </div>
 
             <!-- KPIs -->
@@ -1338,26 +1365,22 @@
         </div>
       </section>
 
-      <!-- Slide 10: Cierre y Próximos Pasos -->
-      <section class="glass-panel" id="sec-10" style="text-align:center;">
-        <div class="section-pill" style="margin:0 auto 1.5vh auto;">PLAN DE ACCIÓN</div>
-        <h2 class="panel-h2" style="font-size:2.2rem; max-width:900px; margin:0 auto 2vh auto;">
-          «Institucionalizar la liquidez es <span class="highlight-gradient">proteger el legado corporativo</span>.»
-        </h2>
-
-        <div class="closing-grid">
-          <div class="glass-card" style="padding:2.5vh 2vw; text-align:left; background:rgba(66,103,209,0.1); border-color:var(--color-primary); border-radius:14px;">
-            <span class="section-pill" style="margin-bottom:6px; background:var(--color-primary); color:#fff;">Paso 01</span>
-            <p style="font-size:0.95rem; font-weight:500; color:var(--color-light);">Definición de parámetros para la primera ronda piloto de negociación.</p>
-          </div>
-          <div class="glass-card" style="padding:2.5vh 2vw; text-align:left; background:rgba(140,128,120,0.1); border-color:var(--color-secondary); border-radius:14px;">
-            <span class="section-pill" style="margin-bottom:6px; background:var(--color-secondary); color:#fff;">Paso 02</span>
-            <p style="font-size:0.95rem; font-weight:500; color:var(--color-light);">Onboarding institucional de accionistas al ecosistema Aroga.</p>
-          </div>
+      <!-- Slide 10: Cierre Institucional Limpio -->
+      <section class="glass-panel" id="sec-10" style="text-align:center; padding: 8vh 4vw; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3.5vh; min-height: 460px; background: radial-gradient(circle at center, rgba(66, 103, 209, 0.15), transparent 70%), var(--glass-bg);">
+        <div class="section-pill" style="font-size: 0.8rem; padding: 4px 14px; background: rgba(66, 103, 209, 0.2); border-color: var(--color-primary); color: #ffffff;">
+          INSTITUCIONALIZANDO LA CONFIANZA
         </div>
 
-        <div style="margin-top: 4vh; display: flex; justify-content: center;">
-          <img src="assets/logo-white.svg" alt="Aroga" style="height:38px; width:auto; opacity:0.9;" onerror="this.src='assets/logo-white.png'">
+        <h2 class="panel-h2" style="font-size: 2.6rem; max-width: 950px; line-height: 1.25; color: var(--color-light);">
+          El valor de su empresa ya no tiene por qué ser una fuente de conflicto.
+        </h2>
+
+        <p style="font-size: 1.35rem; color: var(--color-primary-300); max-width: 800px; line-height: 1.5; font-weight: 500;">
+          Con Aroga PVE, la transparencia es el nuevo estándar.
+        </p>
+
+        <div style="margin-top: 3.5vh; display: flex; justify-content: center; align-items: center;">
+          <img src="assets/logo-white.svg" alt="Aroga" style="height: 52px; width: auto; opacity: 0.95; filter: drop-shadow(0 4px 16px rgba(66, 103, 209, 0.4));" onerror="this.src='assets/logo-white.png'">
         </div>
       </section>
 
